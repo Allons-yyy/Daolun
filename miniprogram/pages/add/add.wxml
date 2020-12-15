@@ -1,0 +1,22 @@
+<!--miniprogram/pages/add/add.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../pic/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<view>
+  <view class="head">目前已添衣物</view>
+  <view class="img">
+      <image src='{{imgUrl1}}' mode="aspectFit"></image>
+      <image src='{{imgUrl2}}' mode="aspectFit"></image>
+      <image src='{{imgUrl3}}' mode="aspectFit"></image>
+      <image src='{{imgUrl4}}' mode="aspectFit"></image>
+      <image src='{{imgUrl5}}' mode="aspectFit"></image>
+      <image src='{{imgUrl6}}' mode="aspectFit"></image>
+      <image src='{{imgUrl7}}' mode="aspectFit"></image>
+      <image src='{{imgUrl8}}' mode="aspectFit"></image>
+      <image src='{{imgUrl9}}' mode="aspectFit"></image>
+      <image src='{{imgUrl0}}' mode="aspectFit"></image>
+  </view>
+</view>
+<button class="add" bindtap="add">添加</button>

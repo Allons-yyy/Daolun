@@ -1,0 +1,17 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../pic/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<image class='header' src="../../pic/header.jpg" mode="aspectFit"></image>
+<view class="choose">
+  <button class="output" bindtap="output" style="opacity:{{1}}">一键出搭配</button>
+  <button class="add" bindtap="add" style="opacity:{{1}}">添加衣物</button>
+</view>
+<view class="weather" style="opacity:{{1}}">
+  <view class="weatherHeader">当前温度</view>
+  <view class="weather">{{weatherData}}</view>
+  <view class="inside">{{inside}}</view>
+</view>
+<button class="chat" bindtap="chat" style="opacity:{{1}}">来聊天吧</button>

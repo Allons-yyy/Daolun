@@ -1,0 +1,38 @@
+/* miniprogram/pages/output/output.wxss */
+.share{
+  width: 90px;
+  margin-top: 25px;
+  background-color: rgb(255, 154, 201);
+  border-radius: 100;
+}
+.header{
+  font-size: 25px;
+  font-weight: bold;
+  text-align :center;
+  margin: 10px;
+  margin-top: 8px;
+  color:rgb(106, 40, 194)
+}
+.res{
+  font-size: 18px;
+  font-weight: bold;
+  text-align :center;
+  margin: 10px;
+  color:rgb(106, 40, 194)
+}
+.img{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin:15px;
+}
+page{
+  height:100%;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}

@@ -1,0 +1,11 @@
+<!--miniprogram/pages/choose/choose.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../pic/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<button class="up" bindtap="up" style="opacity:{{1}}">上装</button>
+<button class="down" bindtap="down" style="opacity:{{1}}">下装</button>
+
+
+

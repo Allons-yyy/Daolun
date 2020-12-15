@@ -1,0 +1,9 @@
+<!--pages/down/down.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../pic/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<image src='{{tempFilePaths}}' class='img' mode="aspectFit"></image>
+<button class="read" bindtap="read" style="opacity:{{1}}">读取颜色</button>
+<view class="color" style="opacity:{{1}}">{{color}}</view>

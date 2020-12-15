@@ -1,0 +1,15 @@
+<!--miniprogram/pages/output/output.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../pic/background.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<view class="output">
+  <view class="header">今天适合穿这身：</view>
+  <view class="img">
+    <image src='{{up}}'  mode="aspectFit"></image>
+    <image src='{{down}}' mode="aspectFit"></image>
+  </view>
+  <view class="res" style="opacity:{{1}}">{{result}}</view>
+</view>
+<button class="share" bindtap="share" open-type="share" style="opacity:{{1}}">Go share</button>
